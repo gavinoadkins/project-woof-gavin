@@ -1,1 +1,57 @@
+/*
+Colors:
+#b4fdf7 light
+#06f9e4 medium
+#049589 dark
+*/
+body {
+    background-color: #b4fdf7;
+    padding-top: 0;
+
+}
+
+
+header{
+	text-align: center;
+	padding: 50px 0;
+	font-style: bold;
+	font-size: 2em;
+	border-bottom: 3px black solid;
+	margin-bottom: 15px;
+}
+
+.info div{
+	background-color: #06f9e4;
+	float:left;
+	width: 30%;
+	padding: 5%;
+	margin: 0 5%;
+	text-shadow: 2px 2px #fff;
+}
+
+.info div img{
+	width: 100%;
+	border-radius: 30%;
+
+}
+
+.list{
+	padding: 50px 0;
+	clear:both;
+}
+
+.list h3, .list li{
+	color: #049589;
+	text-shadow: 2px 2px #fff;
+}
+
+
+.list h3{
+	text-align: center;
+}
+
+.list ul{
+	margin: 0 auto;
+	width: 50%;
+}
 
